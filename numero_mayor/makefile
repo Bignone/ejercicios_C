@@ -1,10 +1,10 @@
 all: selector
 
 
-conversor: selector.o
+selector: selector.o
 	gcc selector.o -o selector
 
-conversor.o: selector.c
+selector.o: selector.c
 	gcc selector.c -c
 	
 

@@ -9,12 +9,15 @@ int main()  {
     int n1 = 1;
     int nth;
 
+    printf("Fibonacci sequence upto %d\n", nterms);
     while (count < nterms) {
+        printf("%d ", n0);
+
         nth = n0 + n1;
         n0 = n1;
         n1 = nth;
+
         count += 1;
-        printf(" %d ", count);
 
     }
 
