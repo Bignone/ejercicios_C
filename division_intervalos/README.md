@@ -1,10 +1,19 @@
-# Sucecion de Fibonacci
-Imprimir cincuenta números de la Sucesión de Fibonacci.
+# Division in intervalos
 
-La Sucesión de Fibonacci es una sucesión infinita de números. La sucesión comienza con los
-números 0 y 1 y, a partir de estos, cada término es igual a la suma de los dos anteriores:
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …
+El ejercicio a realizar consiste en simular la división de un determinado conjunto de elementos
+ordenados en fragmentos del mismo tamaño. 
+El usuario deberá introducir por teclado el
+número de elementos del supuesto conjunto y el número de fragmentos, expresados ambos
+como números enteros. El programa deberá obtener a continuación el rango de cada
+fragmento, esto es, sus límites inferior y superior, teniendo en cuenta que el primer elemento
+del conjunto ocupa la posición 0. 
 
-Como ejercicio se propone implementar un programa que imprima los cincuenta primeros
-números de la Sucesión de Fibonacci. El formato a emplear (un número por línea, números
-separados por coma, etc.) se deja a la elección del alumno.
+Por ejemplo:
+Cantidad de elementos: 14500
+Fragmentos: 5
+Divisiones:
+1) Desde el elemento 0 hasta el elemento 2899
+2) Desde el elemento 2900 hasta el elemento 5799
+3) Desde el elemento 5800 hasta el elemento 8699
+4) Desde el elemento 8700 hasta el elemento 11599
+5) Desde el elemento 11600 hasta el elemento 14499
