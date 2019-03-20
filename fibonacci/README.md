@@ -1,14 +1,8 @@
 # Sucecion de Fibonacci
-Desarrollar un programa en lenguaje C que imprima el menor de cinco números introducidos
-por el usuario. Al comienzo del programa, se deberá solicitar cinco números enteros al usuario.
-
-A continuación, el programa deberá calcular, cuál de los cinco números es menor. Por último, el
-programa mostrará el resultado por pantalla.
-
-Se recomienda emplear un vector de enteros en vez de diez variables independientes:
-~~~~
-int entradas[5];
-...
-scanf(“%d”, &entradas[0]);
-...
-~~~~
+Imprimir cincuenta números de la Sucesión de Fibonacci
+La Sucesión de Fibonacci es una sucesión infinita de números. La sucesión comienza con los
+números 0 y 1 y, a partir de estos, cada término es igual a la suma de los dos anteriores:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …
+Como ejercicio se propone implementar un programa que imprima los cincuenta primeros
+números de la Sucesión de Fibonacci. El formato a emplear (un número por línea, números
+separados por coma, etc.) se deja a la elección del alumno.
