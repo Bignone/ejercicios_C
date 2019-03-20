@@ -5,9 +5,6 @@ void calculateIntervals(int elements, int intervals, int *interval_limits) {
     int chip = elements / intervals;
     int acumulate = 0;
     interval_limits[0] = 0;
-
-    printf("%d\n", elements);
-    printf("%d\n", intervals);
     
     printf("Calculating intervals\n");
     int i = 1;
