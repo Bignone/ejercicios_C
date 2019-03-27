@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int is_bisiest_year(int year) {
+#include "bisiest/bisiest.h"
+
+/*int is_bisiest_year(int year) {
     int is_b = 0;
     if ( (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 ){
         is_b = 1;
@@ -9,7 +11,7 @@ int is_bisiest_year(int year) {
     return is_b;
 
 }
-
+*/
 void askDate(int *in_date)  {
     printf("Insert the date \n");
 
